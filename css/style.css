@@ -835,3 +835,10 @@ textarea#comment::placeholder {
 .margin_top0{
     margin-top: 90px;
 }
+.index_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1%;
+  }
+  
