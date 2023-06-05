@@ -294,14 +294,16 @@ button {
 .consectetur_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 26px;
     color: #202020;
     margin-left: 0px;
     padding-bottom: 40px;
 }
 .about_bt{
-    width: 170px;
-    float: left;
+    width: 250px;
+    float: center;
+    font-size: 26px;
+    margin-left: 10px;
 }
 .about_bt a{
     width: 100%;

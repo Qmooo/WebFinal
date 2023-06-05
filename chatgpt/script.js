@@ -20,7 +20,7 @@ function hideLoader() {
 function generateText(locations, itineraryContainerId, loaderId) {
     showLoader()
     const messages = [
-      { role: 'system', content: '你會幫助使用者安排行程，並用繁體中文回應' },
+      { role: 'system', content: '你會幫助使用者安排一天的行程，並用繁體中文回應，直接給予意見' },
       { role: 'user', content: '今天的行程我想去'+ locations +'幫我安排一下'},
     ];
 
