@@ -228,7 +228,7 @@ button {
     z-index: 1;
 }
 .logo{
-    width: 40%;
+    width: 10%;
     float: left;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -324,7 +324,7 @@ button {
     float: left;
     margin-left: 15px;
 }
-.contact_bt a{
+.contact_bt button{
     width: 100%;
     float: left;
     font-size: 16px;
@@ -334,7 +334,7 @@ button {
     border-radius: 5px;
     text-align: center;
 }
-.contact_bt a:hover{
+.contact_bt button:hover{
     color: #ffffff;
     background-color: #ff5333;
 }
@@ -456,7 +456,7 @@ button {
     width: 100%;
     background-image: url(../images/taoyuan.png);
     height: 600px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .classes_text{
@@ -493,7 +493,6 @@ button {
 .dancer_section{
     width: 100%;
     float: left;
-    background-image: url(../images/dancer-bg.png);
     height: auto;
     background-size: 100%;
 }
@@ -842,5 +841,16 @@ textarea#comment::placeholder {
     justify-content: center;
     align-items: center;
     margin-left: -1%;
-  }
+}
+
+#sun {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    right: 20px;
+    padding-top: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px yellow;
+}
   
