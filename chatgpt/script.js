@@ -1,4 +1,4 @@
-//const apiKey = '';
+const apiKey = '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';
 const endpoint = 'https://api.openai.com/v1/chat/completions';
 
 function showLoader() {
