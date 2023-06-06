@@ -45,3 +45,15 @@ $(function() {
         console.log("Always");
       });
   };
+  document.getElementById("joke1").addEventListener("click", function() {
+    var showDataContainer1 = document.querySelector(".showDataContainer1");
+    showDataContainer1.style.display = "block";
+  });
+  document.getElementById("joke2").addEventListener("click", function() {
+    var showDataContainer2 = document.querySelector(".showDataContainer2");
+    showDataContainer2.style.display = "block";
+  });
+  document.getElementById("joke3").addEventListener("click", function() {
+    var showDataContainer3 = document.querySelector(".showDataContainer3");
+    showDataContainer3.style.display = "block";
+  });

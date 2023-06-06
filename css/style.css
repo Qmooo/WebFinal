@@ -853,4 +853,36 @@ textarea#comment::placeholder {
     border-radius: 50px;
     box-shadow: 0px 0px 20px yellow;
 }
-  
+.showDataContainer1 {
+    display: none;
+    margin-top: 300px;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #e8e6e6;
+    text-align: center;
+}
+.showDataContainer2 {
+    display: none;
+    margin-top: 300px;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #e8e6e6;
+    text-align: center;
+}
+.showDataContainer3 {
+    display: none;
+    margin-top: 300px;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #e8e6e6;
+    text-align: center;
+}
